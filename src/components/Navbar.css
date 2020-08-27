@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+
+.IdeNavbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid pink;
+}
+
+.logo-wrapper svg {
+  height: 50px;
+  margin-left: 50px;
+}
+
+.logo-wrapper svg path {
+  fill: #ffffff !important;
+}
+.logo-wrapper svg text {
+  fill: #ffffff !important;
+}
+
+.IdeNavbar p {
+  font-family: "Permanent marker";
+  color: #ffffff;
+  font-size: 40px;
+  margin-left: 25px;
+  margin-right: auto;
+  margin-top: 16px;
+}
+
+.NavItems {
+  list-style: none;
+}
+
+.NavItems li {
+  display: inline-block;
+  padding: 0 20px;
+}
+
+li,
+a {
+  text-decoration: none;
+}
+
+.IdeNavbar .btn-primary {
+  color: #fff;
+  background-color: #15314b !important;
+  border-color: rgba(0, 0, 0, 0.1) !important;
+  font-weight: 700;
+}
+
+.IdeNavbar .languageBtn .btn-primary {
+  width: 250px !important;
+}
+
+.IdeNavbar .fontSizeBtn .btn-primary {
+  width: 150px !important;
+}
+
+.IdeNavbar .share {
+  width: 50px !important;
+}
+
+.IdeNavbar .btn-primary:hover {
+  color: #fff;
+  background-color: #626ee3 !important;
+  border-color: rgba(0, 0, 0, 0.1) !important;
+}
+
+.IdeNavbar .dropdown-menu {
+  background: #15314b;
+}
+
+.IdeNavbar .dropdown-menu a {
+  color: #ffffff;
+}
+
+.IdeNavbar .dropdown-menu a:hover {
+  background-color: #626ee3;
+}
+
+.IdeNavbar .dropdown-menu .selected {
+  background-color: #e0e0e0;
+  color: #15314b;
+}
